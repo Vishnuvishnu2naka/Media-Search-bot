@@ -31,10 +31,10 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("𝐉𝐨𝐢𝐧 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚠️", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton(" 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 ✅️", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122')
+                        InlineKeyboardButton('𝗦𝗲𝗮𝗿𝗰𝗵 𝗔𝗴𝗮𝗶𝗻', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('𝘾𝙄𝙉𝙄𝙈𝘼 𝙂𝙧𝙤𝙪𝙥', url='https://t.me/MALAYALAM_HD_MOVIES01')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -86,7 +86,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("𝐉𝐨𝐢𝐧 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚠️", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -99,8 +99,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("𝗦𝗲𝗮𝗿𝗰𝗵 𝗛𝗲𝗿𝗲", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("𝘾𝙄𝙉𝙄𝙈𝘼 𝙂𝙧𝙤𝙪𝙥", url="https://t.me/MALAYALAM_HD_MOVIES01")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+            InlineKeyboardButton('𝙐𝙋𝘿𝘼𝙏𝙀𝙎🎭', url='https://t.me/MALAYALAM_HD_MOVIES01'),
+            InlineKeyboardButton('𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗱𝗲', url='https://github.com/subinps/Media-Search-bot')
         ]
         ]
     await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
