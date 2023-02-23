@@ -30,7 +30,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                            InlineKeyboardButton("𝐉𝐨𝐢𝐧 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚠️", url=invite_link.invite_link)
                         ]
                     ]
                 ),
@@ -288,11 +288,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+                    InlineKeyboardButton('𝘾𝙄𝙉𝙄𝙈𝘼 𝙂𝙧𝙤𝙪𝙥 ✅️', url='https://t.me/MALAYALAM_HD_MOVIES01'),
+                    InlineKeyboardButton('𝙐𝙋𝘿𝘼𝙏𝙀𝙎 🎭', url='https://t.me/New_Releases2023')
                 ]
                 ]
-            await query.message.edit(text="Source Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗱𝗲 : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -313,8 +313,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('𝘾𝙄𝙉𝙄𝙈𝘼 𝙂𝙧𝙤𝙪𝙥✅️', url='https://t.me/subin_works/122'),
+                        InlineKeyboardButton('𝙐𝙋𝘿𝘼𝙏𝙀𝙎 🎭', url='https://t.me/subin_works')
                     ]
                     ]
                 
@@ -345,8 +345,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('𝘾𝙄𝙉𝙄𝙈𝘼 𝙂𝙧𝙤𝙪𝙥', url='https://t.me/subin_works/122'),
+                        InlineKeyboardButton('𝙐𝙋𝘿𝘼𝙏𝙀𝙎 🎭', url='https://t.me/subin_works')
                     ]
                     ]
                 
@@ -369,4 +369,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.message.delete()
                 
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀 അധികം മെയിൻ ആവല്ലേ കുണ്ണൻ 👻",show_alert=True)
